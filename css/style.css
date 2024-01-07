@@ -180,6 +180,29 @@ img{
     background-color: #404BBF;
  }
 
+ .menu-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .menu-icon{
+
+ }
+ @media only screen and (max-width: 767.98px){
+    .head .list{
+        display: none;
+    }
+
+    .navi-logo{
+        padding-top: 16px;
+        padding-left: 16px;
+        padding-bottom: 16px;
+        margin-right: 149px;
+    }
+
+ }
+
  /*Section 1*/
 
  .section-one{
