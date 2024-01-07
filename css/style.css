@@ -202,7 +202,8 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: none;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
  }
 
  .menu-icon{
