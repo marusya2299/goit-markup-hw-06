@@ -105,6 +105,7 @@ img{
  .navi {
     display: flex;
     align-items: center;
+    gap: 149px;
  }
 
  .navi-logo, .final-logo{
@@ -119,13 +120,18 @@ img{
  }
 
  .navi-logo{
-    margin-right: 76px;
+    /*margin-right: 76px;
+    padding: 0;*/
+
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
  }
 
  .navi-logo .accent{
     color: #2e2f42;
  }
-
+/*
 .navi-link{
     font-weight: 500;
     text-decoration: none;
@@ -134,12 +140,19 @@ img{
     padding-top: 24px;
     padding-bottom: 24px;
  }
- 
+ */
 .address{
-    font-style: normal;
-    margin-left: auto;
+    /*font-style: normal;
+    margin-left: auto;*/
+    display: none;
 }
 
+.navi .flex-container-one{
+    display: none;
+}
+
+
+/*
 .address-link {
     text-decoration: none;
     color: inherit;
@@ -156,6 +169,10 @@ img{
  .address-link:focus{
     color: #404BBF;
  }
+
+.navi .footer-element-one {
+    display: flex;
+}
 
  .flex-container-one {
     display: flex;
@@ -179,30 +196,19 @@ img{
     bottom: -1px;
     background-color: #404BBF;
  }
-
+*/
  .menu-btn{
+    /*display: none;*/
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: none;
  }
 
  .menu-icon{
 
  }
- @media only screen and (max-width: 767.98px){
-    .head .list{
-        display: none;
-    }
-
-    .navi-logo{
-        padding-top: 16px;
-        padding-left: 16px;
-        padding-bottom: 16px;
-        margin-right: 149px;
-    }
-
- }
-
+ 
  /*Section 1*/
 
  .section-one{
